@@ -1,1 +1,1 @@
-# Flip-kart-Demo
+# Flipkart-Demo
