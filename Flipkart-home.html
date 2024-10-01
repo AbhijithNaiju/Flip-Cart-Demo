@@ -3,39 +3,220 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Gmail Inbox</title>
+		<title>Online shopping site</title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 		<link rel="stylesheet" href="style/home-style.css">
 	</head>
 	<body>
-		<header class="d-flex px-4 py-2 row">
-			<div class="border border-danger col-6 col-md-8 col-lg-7 d-flex justify-content-between align-items-center">
+		<div class=" d-flex header">
+			<div class="header_left  col-5 col-md-7 d-flex justify-content-between justify-content-sm-around align-items-center  px-4 py-2">
 				<a class="logo">
 					<img src="assets/images/flipkart-logo.png" alt="Image not found" title="Flipkart">
 				</a>
-				<div class="search_bar d-none d-md-flex align-items-center ms-5 me-3">
+				<div class="search_bar d-none d-md-flex align-items-center">
 					<img src="assets/images/search-black.png" alt="Image not found" title="Search icon" class="me-1">
 					<input type="text" placeholder="Search for Products, Brands and More" class="">
 				</div>
+				<div class="header_links d-flex justify-content-around align-items-center">
+					<a href="" class="account d-md-flex align-items-center justify-content-between account_button">
+						<img src="assets/images/account.png" alt="Image not found" title="Search icon" class="">
+						<span>Account</span>
+						<img src="assets/images/down-black.png" alt="Image not found" title="Search icon" class="down-arrow ms-1">
+					</a>
+					<a href="" class=" d-md-flex align-items-center">
+						<img src="assets/images/cart-black.png" alt="Image not found" title="Search icon" class="">
+						<span class="d-none d-lg-block">Cart</span>
+					</a>
+					<a href="" class="d-md-flex align-items-center">
+						<img src="assets/images/best_seller.png" alt="Image not found" title="Search icon" class="">
+						<span class="d-none d-lg-block">Became a Seller</span>
+					</a>
+					<a  class="d-none d-md-flex align-items-center three_dots">
+						<img src="assets/images/three-dots.png" alt="Image not found" title="Search icon" class="">
+					</a>
+				</div>
 			</div>
-			<div class="header_links border border-danger col-6 col-md-4 col-lg-5 d-flex justify-content-evenly align-items-center pe-2">
-				<a class="account d-none d-md-flex align-items-center ms-5 me-3">
-					<img src="assets/images/account.png" alt="Image not found" title="Search icon" class="me-2">
-					<span>Account</span>
+		</div>
+		<main>
+			<div class="d-flex top_product_list justify-content-evenly">
+				<a href="" class="d-flex flex-column align-items-center mx-1">
+					<img src="assets/images/top-icon1.webp" alt="Image not found" title="Search icon" class="">
+					<span class="">Top Offers</span>
 				</a>
-				<a class=" d-none d-md-flex align-items-center ms-5 me-3">
-					<img src="assets/images/cart-black.png" alt="Image not found" title="Search icon" class="me-2">
-					<span>Account</span>
+				<a href="" class="d-flex flex-column align-items-center mx-1">
+					<img src="assets/images/top-icon2.webp" alt="Image not found" title="Search icon" class="">
+					<span class="">Mobiles & Tablets</span>
 				</a>
-				<a class=" d-none d-md-flex align-items-center ms-5 me-3">
-					<img src="assets/images/best_seller.png" alt="Image not found" title="Search icon" class="me-2">
-					<span>Account</span>
+				<a href="" class="d-flex flex-column align-items-center mx-1">
+					<img src="assets/images/top-icon3.webp" alt="Image not found" title="Search icon" class="">
+					<span class="">TVs & Appliances</span>
 				</a>
-				<a class=" d-none d-md-flex align-items-center ms-5 me-3">
-					<img src="assets/images/three-dots.png" alt="Image not found" title="Search icon" class="me-2">
+				<a href="" class="d-flex flex-column align-items-center mx-1">
+					<img src="assets/images/top-icon4.webp" alt="Image not found" title="Search icon" class="">
+					<span class="">Electronics</span>
+				</a>
+				<a href="" class="d-flex flex-column align-items-center mx-1">
+					<img src="assets/images/top-icon5.webp" alt="Image not found" title="Search icon" class="">
+					<span class="">Fashion</span>
+				</a>
+				<a href="" class="d-flex flex-column align-items-center mx-1">
+					<img src="assets/images/top-icon6.webp" alt="Image not found" title="Search icon" class="">
+					<span class="">Beauty</span>
+				</a>
+				<a href="" class="d-flex flex-column align-items-center mx-1">
+					<img src="assets/images/top-icon7.webp" alt="Image not found" title="Search icon" class="">
+					<span class="">Home & kitchen</span>
+				</a>
+				<a href="" class="d-flex flex-column align-items-center mx-1">
+					<img src="assets/images/top-icon8.webp" alt="Image not found" title="Search icon" class="">
+					<span class="">Furniture</span>
+				</a>
+				<a href="" class="d-flex flex-column align-items-center mx-1">
+					<img src="assets/images/top-icon9.webp" alt="Image not found" title="Search icon" class="">
+					<span class="">Travel</span>
+				</a>
+				<a href="" class="d-flex flex-column align-items-center mx-1">
+					<img src="assets/images/top-icon10.webp" alt="Image not found" title="Search icon" class="">
+					<span class="">Grocery</span>
 				</a>
 			</div>
-		</header>
+			<div class="mt-3 moving_image_container">
+				<a href="">
+					<img src="assets/images/home_banner.webp" alt="Image not found" title="Search icon" class="">
+					<button class="goto_left_button"><img src="assets/images/down-black.png" alt="Image not found" title="Search icon" class=""></button>
+					<button class="goto_right_button"><img src="assets/images/down-black.png" alt="Image not found" title="Search icon" class=""></button>
+				</a>
+			</div>
+			<div class="mt-3 d-flex product_list_1">
+				<div class=" best_electronics">
+					<div class="w-100 product_list_title d-flex p-3">Best of Electronics<img src="assets/images/right-arrow-blue.png" alt="Image not found" title="Search icon" class=""></div>
+					<div class="d-flex flex-column flex-md-row product_list">
+						<div class="border ms-2 me-2 d-flex flex-row flex-md-column align-items-center justify-content-md-around  justify-content-start">
+							<img src="assets/images/sony_speaker.webp" alt="Image not found" title="" class="">
+							<span class="d-flex flex-column align-items-center">
+								<span>Best Selling Mobile speaker</span>
+								<b>From $499*</b>
+							</span>
+						</div>
+						<div class="border mx-2 d-flex flex-column align-items-center justify-content-around">
+							<img src="assets/images/tws.webp" alt="Image not found" title="" class="">
+							<span class="d-flex flex-column align-items-center">
+								<span>Best Truewireless Headphone</span>
+								<b >Grab Now</b>
+							</span>
+						</div>
+						<div class="border mx-2 d-flex flex-column align-items-center justify-content-around">
+							<img src="assets/images/shaver.webp" alt="Image not found" title="" class="">
+							<span class="d-flex flex-column align-items-center">
+								<span>Best Selling Mobile speaker</span>
+								<b>From $499*</b>
+							</span>
+						</div>
+						<div class="border mx-2 d-flex flex-column align-items-center justify-content-around">
+							<img src="assets/images/monitor.webp" alt="Image not found" title="" class="">
+							<span class="d-flex flex-column align-items-center">
+								<span>Best Selling Mobile speaker</span>
+								<b>From $499*</b>
+							</span>
+						</div>
+						<div class="border mx-2 d-flex flex-column align-items-center justify-content-around">
+							<img src="assets/images/watch.webp" alt="Image not found" title="" class="">
+							<span class="d-flex flex-column align-items-center">
+								<span>Best Selling Mobile speaker</span>
+								<b>From $499*</b>
+							</span>
+						</div>
+						<div class="border mx-2 d-flex flex-column align-items-center justify-content-around">
+							<img src="assets/images/tws.webp" alt="Image not found" title="" class="">
+							<span class="d-flex flex-column align-items-center">
+								<span>Best Selling Mobile speaker</span>
+								<b>From $499*</b>
+							</span>
+							
+						</div>
+					</div>
+				</div>
+				<div class=" best_electronics_ad d-flex align-items-center">
+					<img src="assets/images/boat.webp" alt="Image not found" title="" class="">
+				</div>
+			</div>
+			<div class="d-flex ad_container">
+				<img src="assets/images/ad1.webp" alt="Image not found" title="" class="">
+				<img src="assets/images/ad2.webp" alt="Image not found" title="" class="">
+				<img src="assets/images/ad3.webp" alt="Image not found" title="" class="">
+			</div>
+		</main>
+		<div class="footer">
+			<div class="d-flex flex-column flex-lg-row justify-content-around footer_top">
+				<div class="d-flex flex-column">
+					<span>ABOUT</span>
+					<a href="">Contact us</a>
+					<a href="">About us</a>
+					<a href="">Careers</a>
+					<a href="">Flipkart stories</a>
+					<a href="">Press</a>	
+					<a href="">Corporate Information</a>
+				</div>
+				<div class="d-flex flex-column">
+					<span>GROUP COMPANIES</span>
+					<a href="">Myntra</a>
+					<a href="">Cleartrip</a>
+					<a href="">Shopsy</a>
+				</div>
+				<div class="d-flex flex-column">
+					<span>HELP</span>
+					<a href="">Payments</a>
+					<a href="">Shipping</a>
+					<a href="">Cancellation and returns</a>
+					<a href="">FAQ</a>
+					<a href="">Report Infrigement</a>
+				</div>
+				<div class="d-flex flex-column">
+					<span>CONSUMER POLICY</span>
+					<a href="">Cancellation & Returns</a>
+					<a href="">Terms of Use</a>
+					<a href="">Security</a>
+					<a href="">Privacy</a>
+					<a href="">Sitemap</a>
+					<a href="">Grievance Redressal</a>
+					<a href="">EPR Companies</a>
+				</div>
+				<div class="d-flex flex-column footer-border-left">
+					<span>Main Us:</span>
+					<p>Flipkart Internet Private Limited</p>
+					<p>Buildings Alyssa, Begonia &</p>
+					<p>Clove Embassy Tech Village</p>
+					<p>Outer Ring Road, Devarabeesanahill Village,</p>
+					<p>Bengaluru, 560103,</p>
+					<p>Karnataka, India</p>
+					<span class="mt-1">Social:</span>
+					<div class="d-flex footer_images justify-content-between">
+						<img src="assets/images/facebook.png" alt="Image not found" title="Search icon" class="">
+						<img src="assets/images/twitter.png" alt="Image not found" title="Search icon" class="">
+						<img src="assets/images/youtube.png" alt="Image not found" title="Search icon" class="">
+					</div>
+				</div>
+				<div class="d-flex flex-column">
+					<span>Registered Office Address</span>
+					<p>Flipkart Internet Private Limited</p>
+					<p>Buildings Alyssa, Begonia &</p>
+					<p>Clove Embassy Tech Village</p>
+					<p>Outer Ring Road, Devarabeesanahill Village,</p>
+					<p>Bengaluru, 560103,</p>
+					<p>Karnataka, India</p>
+					<p>CIN : U51109KA2021PTC066107</p>
+					<p class="telephone">Telephone: <a href=""> 044-45614700 </a> / <a href=""> 044-67415800 </a></p>
+				</div>
+			</div>
+			<div class="d-flex flex-column flex-lg-row footer_bottom justify-content-around">
+				<div class="d-flex align-items-center"><img src="assets/images/sell-image.png" alt="Image not found" title="Search icon" class="me-2">Become a Seller</div>
+				<div class="d-flex align-items-center"><img src="assets/images/advertise-image.png" alt="Image not found" title="Search icon" class="me-2">Advertise</div>
+				<div class="d-flex align-items-center"><img src="assets/images/gift-cards-image.png" alt="Image not found" title="Search icon" class="me-2">Gift Cards</div>
+				<div class="d-flex align-items-center"><img src="assets/images/help-centre-image.png" alt="Image not found" title="Search icon" class="me-2">Help center</div>
+				<div>© 2007-2024 Flipkart.com</div>
+				<img src="assets/images/payment-methods.png" alt="Image not found" title="Search icon" class="">
+			</div>
+		</div>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	</body>
 </html>
