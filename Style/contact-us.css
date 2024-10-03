@@ -10,14 +10,24 @@ body
 }
 .logo
 {
-	margin-left:4.9%;
 	display: flex;
 	flex-direction: column;
 	white-space:nowrap;
 }
+.header_left h2
+{
+	color: #e7e7e7;
+    border-left:1px solid #e7e7e7;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 3px 7px;
+    margin-left: 10px;
+    white-space: nowrap;
+}
 .logo img
 {
-	width:77px;
+	width:75px;
 }
 .explore
 {
@@ -41,21 +51,25 @@ body
 	text-decoration: underline;
 	text-decoration-color:#fff;
 }
+.header_left
+{
+    margin-left: 2%;
+}
 .header
 {
 	background:#2874f0;
-	padding: 5px 0;
+	padding: 5px 9%;
 	position: sticky;
 	top: 0;
    	z-index: 1;
 }
-.header_left
+.header_container
 {
 	background:#2874f0;
 	width: 100%;
 	overflow-x: scroll;
 }
-.header_left::-webkit-scrollbar
+.header_container::-webkit-scrollbar
 {
 	display: none;
 }
@@ -79,7 +93,7 @@ body
 }
 .header_links
 {
-	min-width: 40%;
+	min-width: 45%;
 }
 .search_bar img
 {
@@ -157,115 +171,112 @@ nav a:hover i
 	color:#2874f0;
 	rotate:180deg;
 }
-.body_container
+.top_texts div
 {
-	width: 64%;
-	background-color: #fff;
-	height: 81vh;
+	margin-bottom: 8px;
+	font-size: 16px;
+	font-weight: bold;
+	color:#363636;
+}
+.top_texts span
+{
+	color: #707070;
+	font-size: 12px;    
+}
+.top_texts
+{
+    width: 88%;
+}
+.main_body
+{
+	width: 88%;
+	height: 80vh;
 }
 .body_left
 {
-	width: 40%;
-	background-color: #2874f0;
-	padding:45px 33px 55px 33px;
+	width: 25.4%;
+	background-color: #fff;
+	overflow-y: scroll;
 }
 .body_right
 {
-	width: 60%;
-	padding:50px 30px 30px 30px;
+	width: 73.3%;
+	background-color: #fff;
+	height:fit-content;
+	padding-bottom:20px;
 }
-.body_left h2
+.left_content
 {
-	font-size: 27px;
-	font-weight: bold;
-	color: #f8f8f8;
-	line-height: 37px;
-}
-.body_left span
-{
-	font-size: 17.5px;
-	color: #dbd9d9;
-	margin-top: 10px;
-	letter-spacing: 0.3px;	
-}
-.body_right input
-{
-	border: none;
-	border-bottom: 1px solid #ddd;
-	padding: 5px 0;
-	margin-bottom: 10px;
-}
-.body_right input:focus
-{
-	outline: none;
-	border-bottom: 1px solid #3b81f1;
-}
-.body_right input::placeholder
-{
-	color: #858585;
-	font-size: 15px;
-	letter-spacing: 0.5px;
-}
-.body_right form
-{
-	margin: 10px 5px;
-}
-.body_right label
-{
-	color: #8f8f8f;
-	font-size: 11px;
-	margin-top: 22px;
-	letter-spacing: 0.5px;
-}
-.body_right label a
-{
-	text-decoration: none;
-	color: #548ce7;
-}
-.body_right button:not(.continue_button,.login_link)
-{
-	border: none;
-	border-radius: 2px;
-	margin-top: 18px;
-	padding: 12px 0;
-	background-color: #fb641b;
-    box-shadow: 0 1px 2px 0 #00000033;
-	color: #fff;
-	font-size: 15px;
-	font-weight: bold;
-}
-.signup_link a
-{
-	font-weight: bold;
+	padding: 10px 0;
 	font-size: 13px;
+	letter-spacing: 0.5px;
+	color: #333;
+}
+.left_content:hover
+{
+	color: #2874f0;
+	background-color: #f1f5fc;
+}
+.left_heading
+{
+	margin: 20px 30px 10px 30px;
+	font-size: 12px;
+}
+.border_bottom
+{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+.right_content
+{
+	padding: 10px 0;
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	color: #333;
+}
+.right_content:hover
+{
+	color: #2874f0;
+	background-color: #f1f5fc;
+}
+.status_link a
+{
+	color: #918f8f;
 	text-decoration: none;
-	letter-spacing: 0.3px;
+	font-size: 12px;
+	max-width: 80px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
 }
-.continue_button,.login_link
+.status_link a:hover
 {
-	border: none;
-	border-radius: 2px;
-	padding: 12px 0;
-	font-weight: bold;
+	max-width: fit-content;
 }
-.continue_button
+.arrow-right
 {
-	font-size: 15px;
-	margin-top: 12px;
-	background-color: #fb641b;
-	color: #fff;
-    box-shadow: 0 1px 2px 0 #00000033;
-}
-.login_link
-{
-	margin-top: 18px;
-	background-color: #ffffff;
-	color: #3981f3;
-    box-shadow: 0 2px 2px 0 #00000033;
-	font-size: 14px;
-	text-decoration: none;
+	width: 13px;
+	rotate: 270deg;
+	opacity: 0.5;
 }
 
+
+
+.bottom_texts
+{
+    background-color: #fff;
+    width: 100%;
+}
+.bottom_texts span
+{
+	color: #8a8888;
+	font-size: 11px; 
+}
+.bottom_texts div
+{
+	margin: 15px 0 0 0;
+}
 .footer
 {
 	background-color:#131934;
@@ -354,4 +365,18 @@ nav a:hover i
 	{
 		padding:0 5px;
 	}
+    .header
+    {
+	    padding: 5px 5%;
+    }
+    .header_left
+    {
+        margin-left: 0;
+    }
+}
+@media (max-width:1024px) {
+    .header
+    {
+	    padding: 5px 2%;
+    }
 }
