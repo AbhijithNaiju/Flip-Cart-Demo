@@ -200,11 +200,13 @@ main
 	width:83%;
 	margin-right:10px;
 	background-color:#fff;
+	position:relative;
 }
 .product_list_title img
 {
 	margin-left:auto;
 	width:33px;
+	height:33px;
 }
 .product_list_title
 {
@@ -216,6 +218,15 @@ main
 {
 	height:40vh;
 	overflow-x:scroll;
+	position:relative;
+	padding-bottom:20px;
+}
+.sub_product_list
+{
+	height:fit-content;
+	overflow-x:scroll;
+	position:relative;
+	padding-bottom:20px;
 }
 .product_list div
 {
@@ -223,6 +234,14 @@ main
 	max-width:20%;
 	border-radius:5px;
 	padding:7px;
+}
+.sub_product_list div
+{
+	min-width:45%;
+	max-width:50%;
+	border-radius:5px;
+	padding:7px;
+	height:fit-content;
 }	
 .product_list span,.product_list b
 {
@@ -238,14 +257,81 @@ main
 	height:76%;
 	max-width:96%;
 }
-.ad_container
+.ad_container,.sub_ad_container
 {
 	width:100%;
 }
 .ad_container img
 {
 	width:33%;
+	height:270px;
 }
+.sub_ad_container img
+{
+	width:32%;
+	border-radius:5px;
+	height:270px;
+}
+.next_product_button
+{
+	position: absolute;
+	top:0;
+	right: 0;
+	bottom:0;
+	margin: auto 0;
+	height:40%;
+	border:none;
+	background-color:#fff;
+	padding:0 10px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+	border-radius:4px 0px 0px 4px;
+}
+.next_product_button img
+{
+	opacity:0.5;
+	rotate:270deg;
+	width: 25px;
+	height: 25px;
+}
+.best_smartphone
+{
+	width: 100%;
+	background-color: #fff;
+	position:relative;
+}
+.best_gadgets
+{
+	width: 35%;
+	background-color: #fff;
+	position:relative;
+}
+.top_stories a
+{
+	text-decoration: none;	
+	color:#666;
+	font-size: 12px;
+}
+.top_stories div
+{
+	margin: 20px 0;
+	font-size: 16px;
+	font-weight: bold;
+	color:#555;
+}
+.top_stories span
+{
+	color: #444;
+	font-size: 13px;
+}
+.image_ad_5 img
+{
+	width:98%;
+}
+.image_ad_5
+{
+	width:65%;
+}
+
 
 
 .footer
@@ -334,11 +420,11 @@ main
 	{
 		width:100%;
 	}
-.top_product_list a
-{
-	min-width:fit-content;
-	width:fit-content;
-}
+	.top_product_list a
+	{
+		min-width:fit-content;
+		width:fit-content;
+	}
 }
 @media (max-width:991px) {
 
@@ -351,15 +437,43 @@ main
 @media (max-width:767px) {
 	.product_list div
 	{
-		min-width:100%;
-		max-width:100%;
+		min-width:90%;
+		max-width:95%;
 	}
 	.product_list_1
 	{
-		height:fit-content;
+		max-width:100%;
 	}
 	.product_list
 	{
 		height:fit-content;
+		align-items:center;
+		padding-bottom:20px;
 	}
+	.best_electronics
+	{
+		margin-right: 0px;
+	}
+	.next_product_button
+	{
+		display:none;
+	}
+	.sub_product_list div 
+	{
+		min-width: 50%;
+	    	max-width: 100%;
+	}
+	.best_gadgets
+	{
+		width: 100%;
+	}
+	.image_ad_5
+	{
+		width:100%;
+	}
+	.image_ad_5 img
+	{
+		width:100%;
+	}
+
 }
