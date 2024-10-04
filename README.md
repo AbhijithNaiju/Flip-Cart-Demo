@@ -1,1 +1,1 @@
-# Flip-Cart-Demo
+# FlipKart-Demo
