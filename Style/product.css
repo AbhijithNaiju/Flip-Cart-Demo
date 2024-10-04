@@ -182,16 +182,16 @@ nav a:hover i
 .main_top_left
 {
 	width:38.5%;
-	height:82vh;
+	height:85vh;
 	position:sticky;
-	top:60px;
+	top:54px;
 	background:#fff;
 	padding:15px 0 0 15px;
 }
 .main_image_container
 {
 	width:12.5%;
-	height:85%;
+	height:86.5%;
 	position:relative;
 }
 .main_image_selector
@@ -303,20 +303,19 @@ nav a:hover i
 	margin-top:10px;
 	width:50%;
 	border:none;
-	padding:16px 0;
+	padding:14px 0;
 	font-size:1rem;
-	font-weight:bold;
 	white-space:nowrap;
+	color:#222;
+	font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
 }
 .buy_now_mobile
 {
 	background-color:#ffc200;
-	color:#fff;
 }
 .add_to_cart_mobile
 {
 	background-color:#fff;
-	color:#222;
 }
 .add_to_cart_mobile img,.buy_now _mobile img
 {
@@ -329,12 +328,12 @@ nav a:hover i
 	border:1px solid #eee;
 	border-radius:2px;
 	position:relative;
-	height:85%;
+	height:86.5%;
 }
 .display_image img
 {
-	max-width:73%;
-	width:70%;
+	max-width:75%;
+	width:73%;
 	max-height:98%;
 }
 .wishlist
@@ -357,19 +356,11 @@ nav a:hover i
 	background:#fff;
 	padding:15px 15px 0 0;	
 }
-
-
-
-
-
 .item_description
 {
 	width:100%;
 }
-.item_rate
-{
-	width:50%;
-}
+
 .item_image span
 {
 	font-size:12px;
@@ -394,10 +385,10 @@ nav a:hover i
 }
 .item_name
 {
-	font-size: 18px;
+	font-size: 17.5px;
 	cursor: pointer;
-	color: #242424;
-	margin-bottom: 5px;
+	color: #343434;
+	margin: 10px 0;
 }
 .hashtag
 {
@@ -418,7 +409,7 @@ nav a:hover i
 	padding: 1px 5px;
 	margin-bottom: 10px;
 }
-.item_rating_div span
+.item_rating_div .rating_review
 {
 	color: #8d8d8d;
 	font-weight: bold;
@@ -480,6 +471,7 @@ nav a:hover i
 {
 	width:74px;
 	height:22px;
+	margin-left:10px;
 }
 .item_rate small
 {
@@ -507,15 +499,26 @@ nav a:hover i
 }
 .orginal_amount
 {
-	font-size: 14px;
+	font-size: 15px;
 	color: #838383;
 	text-decoration: line-through;
 }
 .offer
 {
-	font-size: 15px;
-	color: #388e3c;
+	font-size: 14px;
+	color: #388e3ce8;
 	font-weight: bold;
+}
+.offer_percent
+{
+	font-size: 15px;
+	color: #008c00;
+	font-weight: bold;
+}
+.info_image
+{
+	opacity:0.5;
+	width:16px;
 }
 .assured_price
 {
@@ -538,10 +541,11 @@ nav a:hover i
 {
 	font-size:13px;
 	color:#333;
+	margin:6px 0;
 }
 .available_offers_content img
 {
-	width:15px;
+	width:17px;
 }
 .available_offers_content a
 {
@@ -557,19 +561,90 @@ nav a:hover i
 .exchange_selector
 {
 	border:1px solid #eee;
-	width:50%;
-	cursor: not-allowed;
+	width:50%;	
 }
-.exchange_selector .bg-light
+.exchange_selector .bg_light
 {
 	font-size:13px;
 	cursor: pointer;
+	background-color:#f5faff;
 }
-.exchange_selector .bg-white
+.exchange_selector .bg_white
 {
 	font-size:13px;
 	color:#888;
 }
+.exchange_not_allowed
+{
+	cursor:not-allowed;
+}
+.mobile_header
+{
+	background-color:#fff;
+	padding:13px 20px;
+	width:100%;
+	z-index:1;
+}
+.mobile_header img
+{
+	width:22px;
+	height:22px;
+}
+.varient_selector_heading
+{
+	font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+	padding-left:4%;
+	margin-bottom:4%;
+}
+.varient_selector
+{
+	margin-top:7%;
+}
+.varient_selector_content
+{
+	padding:3% 4%;
+	border-top:1px solid #ddd;
+	font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium
+}
+.varient_type
+{
+	font-size:14px;
+	color:#555;
+}
+.varient_value
+{
+	font-size:14px;
+	color:#333;
+	font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium
+}
+.more_varient_button img
+{
+	rotate:270deg;
+}
+.more_varient_button
+{
+	color:#999;
+	font-size:14px;
+}
+.ratings_reviews
+{
+	background:#fff;
+	border:1px solid #eee;
+	padding:2%;
+}
+.rating_heading span
+{
+	font-weight:bold;
+	font-size:1.4rem;
+}
+.rating_heading button
+{
+	border:none;
+	background:none;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .26);
+	padding:1.5% 3%;
+}
+
 
 
 
@@ -664,11 +739,16 @@ nav a:hover i
 	}
 	.main_top_left
 	{
-		height:70vh;
+		padding-left:0;
 	}
 	.display_image img
 	{
 		width:unset;
+	}
+	.buy_now, .add_to_cart 
+	{
+		font-size:0.8rem;
+		padding:3%;
 	}
 
 }
@@ -679,13 +759,26 @@ nav a:hover i
 	}
 	nav
 	{
-		padding:8 5px;
+		padding:8px;
 	}
 	.main_top_left
 	{
-		height:60vh;
+		
+	}
+	.current_location a
+	{
+		max-width:5%;
+	}
+	.buy_now, .add_to_cart 
+	{
+		font-size:0.8rem;
+		padding:2%;
 	}
 	
+	.exchange_selector
+	{
+		width:70%;	
+	}
 }
 @media (max-width:991px) {
 
@@ -723,7 +816,7 @@ nav a:hover i
 	.display_image
 	{
 		border:none;
-		margin:30px 0;
+		margin:2% 0;
 	}
 	.main_top_left
 	{
@@ -732,14 +825,15 @@ nav a:hover i
 	}
 	.main_top_right
 	{
-		margin-top:20px;
+		margin-top:10px;
 		width:100%;
+		padding-top:0px;
 	}
 	.display_image img
 	{
 		max-width:unset;
 		max-height:unset;
-		width:95%;
+		width:92%;
 	}
 	.wishlist
 	{
@@ -748,5 +842,94 @@ nav a:hover i
 		font-size:20px;
 		color:#eee;
 		box-shadow:none;
+	}
+	.share_icon_mobile img
+	{
+		width:25px;
+	}
+	.item_name
+	{
+		font-size:0.9rem;
+	}
+	.hashtag
+	{
+		color:#777;
+		font-weight:bold;
+	}
+	.name_mobile_bold
+	{
+		color:#555;
+		font-weight:bold;
+	}
+	.rate_mobile_reverse
+	{
+		flex-direction:row-reverse;
+		justify-content: flex-end;
+	}
+	.offer_percent,.orginal_amount,.assured_price
+	{
+		font-size:20px;
+	}
+	.epic_shot
+	{
+		top:-35px;
+		font-size:13px;
+		background-color:#f0f5ff;
+		padding:2px 10px;
+		color:	#3750b3;
+	}
+	.epic_shot img
+	{
+		width:16px;
+		height:16px;
+	}
+	.more_from_sam
+	{
+		margin:35px 0 0 0;
+		font-size:14px;
+		color: #2a55e5;
+		font-weight:bold;
+	}
+	.item_rating_div .rating_review
+	{
+		color: #4a75e5;
+		font-weight: bold;
+		font-size: 13px;
+	}
+	.assured_image
+	{
+		margin-left:auto;
+	}
+	.packing_fee
+	{
+		font-size:12px;
+	}
+	.deal_offer
+	{
+		background:#f0f5ff;
+		border-radius:5px;
+		padding:20px 20px;
+		border:1px solid #dde9ff;
+	}
+	.deal_offer img
+	{
+		width:30px;
+	}
+	.deal_offer_txt_small
+	{
+		font-size:12px;
+		color:#444;
+	}
+	.deal_offer_txt_large
+	{
+		font-size:13px;
+		color:#222;
+	}
+}
+@media (max-width:425px) {
+	.display_image
+	{
+		border:none;
+		margin:0% 0;
 	}
 }
