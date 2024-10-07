@@ -15,7 +15,7 @@ body
 }
 .logo img
 {
-	width:105px;
+	width:100%;
 }
 .header
 {
@@ -35,7 +35,7 @@ body
 	background:none;
 	border:none;
 	flex: 1;
-	font-size:20px;
+	font-size:18px;
 }
 .search_bar input:focus
 {
@@ -56,11 +56,11 @@ body
 .search_bar img
 {
 	width:27px;
-	opacity:0.6;
+	opacity:0.5;
 }
 .header_links a
 {
-	font-size:18px;
+	font-size:16px;
 	text-decoration:none;
 	color:#222;
 }
@@ -127,12 +127,13 @@ main
 .top_product_list a
 {
 	text-decoration:none;
-	color:#666;
+	color:#444;
 	font-weight:bold;
 	margin:15px 0;
 	white-space:nowrap;
 	min-width:8%;
 	width:fit-content;
+	font-size:14px;
 }
 .top_product_list img
 {
@@ -257,6 +258,11 @@ main
 	height:76%;
 	max-width:96%;
 }
+.product_list>div:hover .product_list_image
+{
+	height:79%;
+	max-width:96%;
+}
 .ad_container,.sub_ad_container
 {
 	width:100%;
@@ -331,7 +337,6 @@ main
 {
 	width:65%;
 }
-
 
 
 .footer
