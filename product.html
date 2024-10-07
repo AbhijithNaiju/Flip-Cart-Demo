@@ -130,7 +130,7 @@
 						</div>
 					</div>
 					<div class="main_image d-flex flex-column">
-						<div class="d-md-none bg-light d-flex p-2 mx-2">
+						<div class="d-md-none d-flex p-2 mx-2 mobile_top_logo_container">
 							<div class="mobile_top_logo">
 								<img src="assets/images/samsung-logo.webp" alt="Image not found" title="" >
 								<span>SAMSUNG</span>
@@ -180,8 +180,8 @@
 					</div>
 				</div>
 				<div class="main_top_right position-relative"> 
-					<div class=" px-3 px-md-4 py-3 bg-white">
-						<div class="item_description  position-relative">
+					<div class=" px-3 px-md-4 pb-3 bg-white">
+						<div class="item_description  position-relative pt-2">
 							<div class="d-flex d-md-none epic_shot position-absolute align-items-center">
 								<img src="assets/images/Productpage-mobile-view/mobile-epic-shot.webp" alt="Image not found" title=" " class="me-2">
 								Epic shots day & night
@@ -208,12 +208,19 @@
 								</div>
 								<span class="hashtag">#JustHere</span>
 							</div>
-							<div class=" d-flex item_rating_div">
-								<div class="rating_display d-flex align-items-center  d-flex">
+							<div class=" d-flex item_rating_div align-items-center mb-2">
+								<div class="rating_display d-none d-md-flex align-items-center  d-flex">
 									4.4
 									<img src="assets/images/star-light.png" alt="Image not found" title="" class="ms-1">
 								</div>
-								<div class="ms-1 rating_review">19,074 Ratings <span  class="d-none d-md-inline">& 1,150 Reviews</span></div>
+								<div class="rating_display_mobile d-flex d-md-none align-items-center  d-flex">
+									<i class="fa-solid fa-star"></i>
+									<i class="fa-solid fa-star"></i>
+									<i class="fa-solid fa-star"></i>
+									<i class="fa-solid fa-star"></i>
+									<i class="fa-regular fa-star-half-stroke"></i>
+								</div>
+								<div class="ms-1 rating_review d-flex align-items-center">19,074 Ratings <span  class="d-none d-md-inline">& 1,150 Reviews</span></div>
 								<img src="assets/images/assured.png" alt="Image not found" title="" class="assured_image d-none d-md-block">
 								<img src="assets/images/Productpage-mobile-view/assured_mobile.png" alt="Image not found" title="" class="assured_image d-md-none">
 							</div>
@@ -571,7 +578,7 @@
 					<div class="other_details_container bg-white d-md-none">
 						<table class="w-100">
 							<tr>
-								<th class="fw-bold py-2 ps-3">Other Details</th>
+								<th class="fw-bold py-2 ps-3" colspan="2">Other Details</th>
 							</tr>
 							<tr class="">
 								<td class="ps-3 other_text_secondary">Network Type</td>
@@ -598,7 +605,7 @@
 								<td>Handset, Adapter, USB Cable, Important Info Booklet with Warranty Card, Quick Guide, Sim Card Tool, Screen Protect Film, TPU Case</td>
 							</tr>
 							<tr>
-								<th class="ps-3 pt-4">Warranty</th>
+								<th class="ps-3 pt-4" colspan="2">Warranty</th>
 							</tr>
 							<tr class="">
 								<td class="ps-3 other_text_secondary">Warranty Details</td>
@@ -633,7 +640,15 @@
 							<div class="rating_overall d-flex">
 								<div class="review_stars d-flex justify-content-between">
 									<div class="total_rating d-flex flex-column align-items-center">
-										<h4 class="align-items-center d-flex">4.4 ★</h4>
+										<h4 class="align-items-center d-none d-md-flex">4.4 ★</h4>
+										<div class="d-flex d-md-none flex-column align-items-center mb-2"><span>Very Good</span></div>
+										<div class="rating_display_mobile d-flex d-md-none align-items-center  d-flex">
+											<i class="fa-solid fa-star mx-1"></i>
+											<i class="fa-solid fa-star mx-1"></i>
+											<i class="fa-solid fa-star mx-1"></i>
+											<i class="fa-solid fa-star mx-1"></i>
+											<i class="fa-regular fa-star-half-stroke mx-1"></i>
+										</div>
 										<div class="d-flex flex-column align-items-center"><span>30,028 Ratings &</span><span> 1,586 Reviews</span></div>
 									</div>
 									<div class="individual_stars d-flex flex-column align-items-center ">

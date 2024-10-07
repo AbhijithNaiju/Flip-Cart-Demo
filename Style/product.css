@@ -406,7 +406,11 @@ nav a:hover i
 	border-radius: 3px;
 	width: fit-content;
 	padding: 2px 5px;
-	margin-bottom: 10px;
+}
+.rating_display_mobile
+{
+	font-size: 14px;
+	color: #178f17;
 }
 .item_rating_div .rating_review
 {
@@ -1020,7 +1024,7 @@ nav a:hover i
 }
 .similar_products,.recently_visited
 {
-	height:48vh;
+	height:50vh;
 	overflow-x:scroll;
 	position:relative;
 	padding-bottom:20px;
@@ -1491,6 +1495,11 @@ nav a:hover i
 	font-size:14px;
 	color:#555;
 }
+.mobile_top_logo_container
+{
+	background:#f5f5f5;
+	border-radius:5px
+}
 .footer
 {
 	background-color:#131934;
@@ -1571,7 +1580,7 @@ nav a:hover i
 	}
 	.main_image
 	{
-		width:85%;	
+		width:90%;	
 	}
 	.main_top_left
 	{
@@ -1642,7 +1651,7 @@ nav a:hover i
 	}
 	.main_image
 	{
-		width:82%;	
+		width:90%;	
 	}	
 }
 
@@ -1720,7 +1729,7 @@ nav a:hover i
 	}
 	.epic_shot
 	{
-		top:-35px;
+		top:0;
 		font-size:13px;
 		background-color:#f0f5ff;
 		padding:2px 10px;
@@ -1741,8 +1750,8 @@ nav a:hover i
 	.item_rating_div .rating_review
 	{
 		color: #4a75e5;
-		font-weight: bold;
-		font-size: 13px;
+		font-weight: normal;
+		font-size: 12px;
 	}
 	.assured_image
 	{
@@ -1808,6 +1817,11 @@ nav a:hover i
 	{
 		border-right:1px solid #ddd;
 		width: 40%;
+	}
+	.total_rating .rating_display_mobile
+	{
+		color:#178f17;
+		margin-bottom:10px;
 	}
 	.rating_camera span
 	{

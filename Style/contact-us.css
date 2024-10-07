@@ -181,7 +181,8 @@ nav a:hover i
 .top_texts span
 {
 	color: #707070;
-	font-size: 12px;    
+	font-size: 11px;
+	letter-spacing:0.4px;
 }
 .top_texts
 {
@@ -190,20 +191,34 @@ nav a:hover i
 .main_body
 {
 	width: 88%;
-	height: 80vh;
 }
 .body_left
 {
 	width: 25.4%;
 	background-color: #fff;
 	overflow-y: scroll;
+	height: 80vh;
 }
 .body_right
 {
 	width: 73.3%;
-	background-color: #fff;
 	height:fit-content;
 	padding-bottom:20px;
+}
+.body_right>div
+{
+	background-color: #fff;
+}
+.body_right>span
+{
+	margin-top:10px;
+	font-size:11px;
+	color:#777;
+	letter-spacing:0.4px;
+}
+.body_right>span a
+{
+	text-decoration:none;
 }
 .left_content
 {
@@ -227,23 +242,43 @@ nav a:hover i
 	padding-bottom: 10px;
 	border-bottom: 1px solid #eee;
 }
+.right_heading
+{
+	font-size:17px;
+	color:#000;
+	letter-spacing:0.6px;
+}
 .right_content
 {
-	padding: 10px 0;
-	font-size: 13px;
+	padding: 18px 0;
 	letter-spacing: 0.5px;
-	color: #333;
 }
 .right_content:hover
 {
-	color: #2874f0;
-	background-color: #f1f5fc;
+	background-color: #f5faff;
 }
+.right_content_dark
+{
+	font-size:13px;
+	color:#212121;
+}
+.right_content_light
+{
+	font-size:11px;
+	color:#878787;
+	font-weight:normal;
+}
+.arrow_right
+{
+	width:18px;	
+	height:18px;
+	rotate:270deg;
+}	
 .status_link a
 {
 	color: #918f8f;
 	text-decoration: none;
-	font-size: 12px;
+	font-size: 11px;
 	max-width: 80px;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -252,6 +287,7 @@ nav a:hover i
 }
 .status_link a:hover
 {
+	color: #2874f0;
 	max-width: fit-content;
 }
 .arrow-right
@@ -260,20 +296,36 @@ nav a:hover i
 	rotate: 270deg;
 	opacity: 0.5;
 }
-
-
-
+.right_top
+{
+	height:60vh;
+}
+.contact_us_img
+{
+	width:20%;
+}
+.login_orange
+{
+	border:none;
+	background:#fb641b;
+	color:#fff;
+	font-weight:bold;
+	font-size:14px;
+	width:15%;
+	padding:7px 0;
+	border-radius:2px;
+}
 .bottom_texts
 {
     background-color: #fff;
     width: 100%;
 }
-.bottom_texts span
+.bottom_texts div
 {
 	color: #8a8888;
 	font-size: 11px; 
 }
-.bottom_texts div
+.bottom_texts span
 {
 	margin: 15px 0 0 0;
 }
@@ -365,18 +417,22 @@ nav a:hover i
 	{
 		padding:0 5px;
 	}
-    .header
-    {
-	    padding: 5px 5%;
-    }
-    .header_left
-    {
-        margin-left: 0;
-    }
+	.header
+	{
+		padding: 5px 5%;
+	}
+	.header_left
+	{
+		margin-left: 0;
+	}
 }
 @media (max-width:1024px) {
-    .header
-    {
-	    padding: 5px 2%;
-    }
+	.header
+	{
+		padding: 5px 2%;
+	}
+	.body_right
+	{
+		width:100%;
+	}
 }
