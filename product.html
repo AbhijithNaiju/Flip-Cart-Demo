@@ -78,7 +78,19 @@
 			</a>
 		</nav>
 		<main class="d-flex flex-column justify-content-between">
-			<div class="main_top  d-flex flex-column flex-md-row">
+			<div class="main_top  d-flex flex-column flex-md-row position-relative">
+				<div class="d-flex d-md-none mobile_header justify-content-between position-sticky">
+					<div>
+						<img src="assets/images/Productpage-mobile-view/left-arrow.png" alt="Image not found" title=" " class="">
+						<img src="assets/images/Productpage-mobile-view/logo_lite.png" alt="Image not found" title=" " class="">
+					</div>
+					<div>
+						<img src="assets/images/Productpage-mobile-view/search-black.png" alt="Image not found" title=" " class="mx-2">
+						<img src="assets/images/Productpage-mobile-view/cart-black.png" alt="Image not found" title=" " class="mx-2">
+						<span class="ms-4">Login</span>
+					</div>
+					
+				</div>
 				<div class="d-flex main_top_left">
 					<div class="d-none d-md-block main_image_container d-flex">
 						<div class=" d-none d-md-flex flex-column main_image_selector">
@@ -132,12 +144,38 @@
 								 BUY NOW
 							</button>
 						</form>
+						<div class="varient_selector d-md-none">
+							<div class="varient_selector_heading">Select Varient</div>
+							<div class="varient_selector_content d-flex justify-content-between">
+								<div>
+									<span class="varient_type">Color:</span>
+									<span class="varient_value">Graphite</span>
+								</div>
+								<span class="more_varient_button">
+									4 more
+									<img src="assets/images/down-black.png" alt="Image not found" title=" " class="account_img">
+								</span>
+							</div>
+							<div class="varient_selector_content d-flex justify-content-between">
+								<div>
+									<span class="varient_type">Storage:</span>
+									<span class="varient_value">128 GB</span>
+								</div>
+								<span class="more_varient_button">
+									2 more
+									<img src="assets/images/down-black.png" alt="Image not found" title=" " class="account_img">
+								</span>
+							</div>
+						</div>	
 					</div>
-					
 				</div>
 				<div class="main_top_right">
-					<div class=" ps-4">
-						<div class="item_descriptionpe-4">
+					<div class=" ps-3">
+						<div class="item_description pe-4 position-relative">
+							<div class="d-flex d-md-none epic_shot position-absolute align-items-center">
+								<img src="assets/images/Productpage-mobile-view/mobile-epic-shot.webp" alt="Image not found" title=" " class="me-2">
+								Epic shots day & night
+							</div>
 							<div class="current_location d-none d-md-flex mb-2">
 								<a href="">Home</a><img src="assets/images/down-black.png" alt="Image not found" title="" class="arrow-down mx-1">
 								<a href="">Mobiles & Accesorries</a><img src="assets/images/down-black.png" alt="Image not found" title="" class="arrow-down mx-1">
@@ -151,75 +189,101 @@
 									Share
 								</div>
 							</div>
-							<h3 class="item_name">SAMSUNG Galaxy S23 FE (Graphite, 128 GB)  (8 GB RAM)<span class="hashtag">#JustHere</span></h3>
+							<div class="more_from_sam d-md-none">
+								View more from SAMSUNG
+							</div>
+							<h3 class="item_name d-flex flex-column flex-md-row"><div><span class="name_mobile_bold">SAMSUNG</span> Galaxy S23 FE (Graphite, 128 GB)  (8 GB RAM)</div><span class="hashtag">#JustHere</span></h3>
 							<div class=" d-flex item_rating_div">
 								<div class="rating_display d-flex align-items-center  d-flex">
 									4.4
 									<img src="assets/images/star-light.png" alt="Image not found" title="" class="ms-1">
 								</div>
-								<span class="ms-1">19,074 Ratings & 1,150 Reviews</span>
-								<img src="assets/images/assured.png" alt="Image not found" title="" class="ms-3 assured_image">
+								<div class="ms-1 rating_review">19,074 Ratings <span  class="d-none d-md-inline">& 1,150 Reviews</span></div>
+								<img src="assets/images/assured.png" alt="Image not found" title="" class="assured_image d-none d-md-block">
+								<img src="assets/images/Productpage-mobile-view/assured_mobile.png" alt="Image not found" title="" class="assured_image d-md-none">
 							</div>
+						</div>
+						<div class="d-flex d-md-none top-discount">
+							<img src="assets/images/Productpage-mobile-view/top-discount.png" alt="Image not found" title=" " class="me-2 my-1">
 						</div>
 						<div class="item_rate">
 							<span class="offer">Extra ₹50000 off</span>
-							<div class="d-flex align-items-center">
+							<div class="d-flex align-items-center rate_mobile_reverse">
 								<div class="assured_price me-2">₹29,999</div>
-								<span class="orginal_amount me-2">₹16,999</span><span class="offer">23% off</span>
+								<span class="orginal_amount me-2">₹72,999</span>
+								<span class="offer_percent me-2">23% off</span>
+								<img src="assets/images/info.png" alt="Image not found" title="" class="ms-2 info_image d-none d-md-block">
 							</div>
-							<span class="packing_fee">+ ₹59 Secured Packaging Fee</span>
+							<span class="packing_fee d-none d-md-inline">+ ₹59 Secured Packaging Fee</span>
+							<div class="packing_fee d-md-none my-2">Free delivery by 7th october</div>
 						</div>
-						<div class="available_offers d-flex flex-column">
-							<span class="available_offers_heading my-1">Available Offers</span>
-							<span class="available_offers_content my-1">
-								<img src="assets/images/green-tag.png" alt="Image not found" title="" class="">
-								<b>Bank Offer</b> 5% Unlimited Cashback on Flipkart Axis Bank Credit Card 
-								<a href="">T&C</a>
-							</span>
-							<span class="available_offers_content my-1">
-								<img src="assets/images/green-tag.png" alt="Image not found" title="" class="">
-								<b>Bank Offer</b> 5% Unlimited Cashback on Flipkart Axis Bank Credit Card 
-								<a href="">T&C</a>
-							</span>
-							<span class="available_offers_content my-1">
-								<img src="assets/images/green-tag.png" alt="Image not found" title="" class="">
-								<b>Bank Offer</b> 5% Unlimited Cashback on Flipkart Axis Bank Credit Card 
-								<a href="">T&C</a>
-							</span>
-							<span class="available_offers_content my-1">
-								<img src="assets/images/green-tag.png" alt="Image not found" title="" class="">
-								<b>Bank Offer</b> 5% Unlimited Cashback on Flipkart Axis Bank Credit Card 
-								<a href="">T&C</a>
-							</span>
-							<a href=""class="view_more_link">View 7 more offers</a>
+						<div class="deal_offer d-flex d-md-none align-items-center">
+							<img src="assets/images/Productpage-mobile-view/top-deal.png" alt="Image not found" title=" " class="me-2 my-1">
+							<div class="d-flex flex-column">
+								<span class="deal_offer_txt_large">Get at ₹28,499</span>
+								<span class="deal_offer_txt_small">Unbeatable deal with 1 offer</span>
+							</div>
+							<img src="assets/images/down-black.png" alt="Image not found" title=" " class="ms-auto my-1">
 						</div>
-						<div class="exchange_selector">
-							<div class="d-flex px-2 py-3 bg-light border-bottom">
+						<div class="available_offers d-none d-md-flex flex-column">
+							<span class="available_offers_heading">Available Offers</span>
+							<span class="available_offers_content">
+								<img src="assets/images/green-tag.png" alt="Image not found" title="" class="">
+								<b>Bank Offer</b> 5% Unlimited Cashback on Flipkart Axis Bank Credit Card 
+								<a href="">T&C</a>
+							</span>
+							<span class="available_offers_content ">
+								<img src="assets/images/green-tag.png" alt="Image not found" title="" class="">
+								<b>Bank Offer</b> 5% Unlimited Cashback on Flipkart Axis Bank Credit Card 
+								<a href="">T&C</a>
+							</span>
+							<span class="available_offers_content ">
+								<img src="assets/images/green-tag.png" alt="Image not found" title="" class="">
+								<b>Bank Offer</b> 5% Unlimited Cashback on Flipkart Axis Bank Credit Card 
+								<a href="">T&C</a>
+							</span>
+							<span class="available_offers_content">
+								<img src="assets/images/green-tag.png" alt="Image not found" title="" class="">
+								<b> Partner Offer </b> Make a purchase and enjoy a surprise cashback/ coupon that you can redeem later!Know More
+								<a href="">T&C</a>
+							</span>
+							<a href="" class="view_more_link pb-4 pt-1">View 7 more offers</a>
+						</div>
+						<div class="exchange_selector d-none d-md-block	">
+							<div class="d-flex px-2 py-3 bg_light border-bottom">
 								<input type="radio" checked="checked" class="mx-3"><span>Buy without Exchange</span>
 								<b class="ms-auto">₹29,999</b> 
 							</div>
-							<div class="d-flex px-2 py-3 bg-white">
-								<input type="radio" class="mx-3" disabled><span>Buy with Exchange</span>
-								<b class="ms-auto"> upto₹29,999</b> 
+							<div class="exchange_not_allowed">
+								<div class="d-flex px-2 py-3 bg_white">
+									<input type="radio" class="mx-3" disabled><span>Buy with Exchange</span>
+									<b class="ms-auto"> upto₹29,999</b> 
+								</div>
+								<div class="d-flex px-2 pb-3 ps-5">
+									<small class="text-danger">Enter pincode to check if exchange is available</small> 
+								</div>
 							</div>
-							<div class="d-flex px-2 pb-3 ps-5">
-								<small class="text-danger">Enter pincode to check if exchange is available</small> 
-							</div>
+						</div>
+					</div>
+					<div class="ratings_reviews m-3">
+						<div class="rating_heading d-flex align-items-center">
+							<span>Rating & Reviews</span>
+							<button class="ms-auto">Rate Product</button>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="main_bottom">
-				bo
+				bb
 			</div>
-			<div class="top_stories mx-3">
+			<div class="top_stories mx-3  d-md-block">
 				<div class="">Top Stories: <span>Brand Directory</span></div>
 				<span>MOST SEARCHED FOR ON FLIPKART:</span> <a href=""> iPhone 16 </a>|<a href=""> iPhone 16 Plus </a>|<a href=""> iPhone 16 Pro </a>|<a href=""> iPhone 16 Pro Max </a>|<a href=""> Whoop Fitness Band </a>|<a href=""> Flipkart Minutes </a>|<a href=""> Flipkart Exchange Flipkart Reset </a>|<a href=""> Nothing Phone 2à Plus </a>|<a href=""> Sarees </a>|<a href=""> CMF by
 				Nothing Phone 1 Pocket Bazaar </a>|<a href=""> Xiaomi 14 CIVI </a>|<a href=""> Infinix Note 40 Pro 5G </a>|<a href=""> iPhone 15 </a>|<a href=""> Infinix Note 40 50 </a>|<a href=""> iPhone 15 Plus </a>|<a href=""> vivo X Fold3 Pro </a>|<a href=""> Motorola g04s </a>|<a href=""> Viva x 100 </a>|<a href=""> OnePlus Nord CE 3 Lite 5G </a>|<a href=""> Spoyl Store </a>|<a href=""> SAMSUNG Flip5</a>|<a href=""> SAMSUNG Folds Flipkart Axis Bank Super Elite Credit card </a>|<a href=""> 5G Mobile Phones </a>|<a href=""> Primetiook Laptops </a>|<a href=""> Moto Edge 40 </a>|<a href=""> Grievance Redressal </a>|<a href=""> OPPO Reno7 Pro 5G </a>|<a href=""> Help Centre </a>|<a href=""> Track Orders </a>|<a href=""> Manage Orders </a>|<a href=""> Return
 				Orders Gift Cards Store </a>|<a href=""> Flipkart Axis Bank Credit Card </a>|<a href=""> Pay Later</a><br>
 			</div>
 		</main>
-		<div class="footer">
+		<div class="footer d-none d-md-block">
 			<div class="d-flex flex-column flex-lg-row justify-content-around footer_top">
 				<div class="d-flex flex-column">
 					<span>ABOUT</span>
@@ -293,10 +357,10 @@
 		<div class="d-block d-md-none cart_buy_mobile">
 			<form class="d-flex justify-content-between">
 				<button class="add_to_cart_mobile d-flex align-items-center justify-content-center">
-					ADD TO CART
+					Add to cart
 				</button>
 				<button class="buy_now_mobile d-flex align-items-center justify-content-center">
-					BUY NOW
+					Buy now
 				</button>
 			</form>
 		</div>
