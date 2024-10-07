@@ -260,8 +260,11 @@ main
 }
 .product_list>div:hover .product_list_image
 {
-	height:79%;
-	max-width:96%;
+	transform: scale(1.03);
+}
+.sub_product_list>div:hover .product_list_image
+{
+	transform: scale(1.03);
 }
 .ad_container,.sub_ad_container
 {
@@ -270,13 +273,11 @@ main
 .ad_container img
 {
 	width:33%;
-	height:270px;
 }
 .sub_ad_container img
 {
 	width:32%;
 	border-radius:5px;
-	height:270px;
 }
 .next_product_button
 {

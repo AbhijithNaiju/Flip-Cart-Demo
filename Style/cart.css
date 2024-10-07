@@ -400,7 +400,7 @@ main
 .footer
 {
 	padding:1% 7%;
-	font-size:13px;
+	font-size:0.8rem;
 	color:#666;
 	letter-spacing:0.4px;
 }
@@ -443,9 +443,30 @@ main
 		margin-left:0;
 	}
 }
-@media (max-width:760px) {
+@media (max-width:767px) {
 	.header
 	{
 		padding:5px 2%;
     	}
+	.body_left,.body_right,.image_div,.item_data,.delivery_date
+	{
+		width:100%;
+	}
+	.item_data
+	{
+		margin-top:30px;
+	}
+	.num_of_items_button
+	{
+		width:50%;
+	}
+	.delivery_date
+	{
+		margin-left:20px;
+	}
+	.place_order button
+	{
+		white-space:nowrap;
+		width:100%;
+	}
 }

@@ -354,4 +354,23 @@ nav a:hover i
 	{
 		padding:0 5px;
 	}
+	.body_left
+	{
+		display:none;
+	}
+	.body_right
+	{
+		width: 100%;
+	}
+}
+@media (max-width:768px) {
+	.body_container
+	{
+	width: 90%;
+	}
+@media (max-width:425px) {
+	.body_container
+	{
+	width: 99%;
+	}
 }

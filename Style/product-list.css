@@ -197,11 +197,13 @@ nav a:hover i
 	rotate:180deg;
 	width:18px;
 	opacity:0.7;
+	height: 18px;
 }
 .filter_sub_heading .arrow-down
 {
 	width:18px;
 	opacity:0.7;
+	height: 18px;
 }
 .category_light
 {
@@ -348,6 +350,7 @@ nav a:hover i
 {
 	width:49%;
 	padding-left: 5px;
+	text-decoration:none;
 }
 .item_rate
 {
@@ -561,4 +564,19 @@ nav a:hover i
 		padding-left: 0px;
 		border-left: none;
 	} 
+}
+@media (max-width:765px) 
+{
+	.item_image
+	{
+		width:30%;
+	}
+	.item_rate
+	{
+		width:70%;
+	}
+	.item_description
+	{
+		display:none;	
+	}
 }
